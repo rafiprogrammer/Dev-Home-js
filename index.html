@@ -32,11 +32,11 @@
                 <img src="assets/checkbox.png" alt="" />
               </div>
               <div>
-                <h1 class="text-3xl font-bold pl-2">23</h1>
+                <h1 id="task-available" class="text-3xl font-bold pl-2">23</h1>
               </div>
             </div>
             <div>
-              <img
+              <img id="colorBtn"
                 class="bg-blue-50 rounded-full p-3"
                 src="assets/theme-btn.png"
                 alt=""
@@ -64,7 +64,7 @@
                     </div>
                 </div>
 <!-- No 2 -->
-                <div class="col-span-2 flex gap-6 items-center bg-gradient-to-r from-indigo-500 to-indigo-300 rounded-2xl px-10 py-6">
+                <div class="col-span-2 flex gap-6 items-center bg-gradient-to-r from-indigo-500 to-indigo-300 rounded-2xl px-10 py-6" id="discover">
                     <div>
                         <img src="assets/board.png" alt="">
                     </div>
@@ -78,8 +78,8 @@
                         <img class="bg-white rounded-full p-2" src="assets/calender.png" alt="">
                     </div>
                     <div>
-                        <p class="text-xl opacity-70">Wed</p>
-                        <span class="text-xl font-bold">Jul 28 2025 </span>
+                        <p id="day" class="text-xl opacity-70"></p>
+                        <p id="date" class="text-xl opacity-70"></p>
                     </div>
                 </div>
             </div>
@@ -187,12 +187,11 @@
                 </div>
                 <div>
                     <h1>Activity Log</h1>
-                    <button id="click">hello</button>
-
                 </div>
             </div>
-            <button class="bg-indigo-500 px-5 py-2 rounded-lg text-white mt-4">Clear History</button>
+            <button id="clear-text" class="bg-indigo-500 px-5 py-2 rounded-lg text-white mt-4">Clear History</button>
         </div>
+        <div id="activity-section"></div>
         </section>
     </main>
     <script src="script/function.js"></script>
